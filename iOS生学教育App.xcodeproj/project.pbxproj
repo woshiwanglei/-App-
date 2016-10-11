@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B014CA21BFDCE4C00BD930A /* UUBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B014C971BFDCE4C00BD930A /* UUBar.m */; };
+		9B014CA31BFDCE4C00BD930A /* UUBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B014C991BFDCE4C00BD930A /* UUBarChart.m */; };
+		9B014CA41BFDCE4C00BD930A /* UUChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B014C9B1BFDCE4C00BD930A /* UUChart.m */; };
+		9B014CA51BFDCE4C00BD930A /* UUChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B014C9D1BFDCE4C00BD930A /* UUChartLabel.m */; };
+		9B014CA61BFDCE4C00BD930A /* UUColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B014C9F1BFDCE4C00BD930A /* UUColor.m */; };
+		9B014CA71BFDCE4C00BD930A /* UULineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B014CA11BFDCE4C00BD930A /* UULineChart.m */; };
+		9B04F5081BFC2666003B08FC /* SXSuggestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B04F5071BFC2666003B08FC /* SXSuggestViewController.m */; };
+		9B29A9491BF1CD0300246132 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B29A9481BF1CD0300246132 /* main.m */; };
+		9B29A94C1BF1CD0300246132 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B29A94B1BF1CD0300246132 /* AppDelegate.m */; };
+		9B29A9521BF1CD0300246132 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B29A9501BF1CD0300246132 /* Main.storyboard */; };
+		9B29A9551BF1CD0300246132 /* iOS____App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B29A9531BF1CD0300246132 /* iOS____App.xcdatamodeld */; };
+		9B29A9571BF1CD0300246132 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B29A9561BF1CD0300246132 /* Assets.xcassets */; };
+		9B29A95A1BF1CD0300246132 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B29A9581BF1CD0300246132 /* LaunchScreen.storyboard */; };
+		9B29A9651BF1CD0300246132 /* iOS____AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B29A9641BF1CD0300246132 /* iOS____AppTests.m */; };
+		9B29A9701BF1CD0300246132 /* iOS____AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B29A96F1BF1CD0300246132 /* iOS____AppUITests.m */; };
+		9B29A98A1BF1FBF900246132 /* SXDownLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B29A9891BF1FBF900246132 /* SXDownLoadViewController.m */; };
+		9B4DFDA21C03F372003D9A98 /* BTSpiderPlotterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4DFDA11C03F372003D9A98 /* BTSpiderPlotterView.m */; };
+		9B4F2CA91BF319BD00D496CB /* SXLogonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4F2CA81BF319BD00D496CB /* SXLogonViewController.m */; };
+		9B4F2CAC1BF319F400D496CB /* SXStuLogonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4F2CAB1BF319F400D496CB /* SXStuLogonViewController.m */; };
+		9B4F2CB41BF34D8500D496CB /* SXHomepageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4F2CB31BF34D8500D496CB /* SXHomepageViewController.m */; };
+		9B4F64A51C085BAB004920E7 /* SXParentsLogonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4F64A41C085BAB004920E7 /* SXParentsLogonViewController.m */; };
+		9B5058F81BF97329005AAE55 /* SXExamsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5058F61BF97329005AAE55 /* SXExamsTableViewCell.m */; };
+		9B5058F91BF97329005AAE55 /* SXExamsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B5058F71BF97329005AAE55 /* SXExamsTableViewCell.xib */; };
+		9B5058FD1BF9D244005AAE55 /* SXCompareTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5058FB1BF9D244005AAE55 /* SXCompareTableViewCell.m */; };
+		9B5058FE1BF9D244005AAE55 /* SXCompareTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B5058FC1BF9D244005AAE55 /* SXCompareTableViewCell.xib */; };
+		9B5DA76E1BF43FCD001E1B8A /* SXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5DA76D1BF43FCD001E1B8A /* SXMainViewController.m */; };
+		9B5DA7771BF470FA001E1B8A /* SXAnalyzeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5DA7761BF470FA001E1B8A /* SXAnalyzeViewController.m */; };
+		9B6FACE81BFB205A00FC8660 /* CALayer+SXAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6FACE71BFB205A00FC8660 /* CALayer+SXAddition.m */; };
+		9B6FACEC1BFB2D2500FC8660 /* SXChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B6FACEB1BFB2D2500FC8660 /* SXChangePasswordViewController.m */; };
+		9B983E3F1BF5CC2D0065DC58 /* SXExamsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B983E3E1BF5CC2D0065DC58 /* SXExamsTableViewController.m */; };
+		9B983E421BF5CEC80065DC58 /* SXCompareTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B983E411BF5CEC80065DC58 /* SXCompareTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B29A9611BF1CD0300246132 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B29A93C1BF1CD0300246132 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B29A9431BF1CD0300246132;
+			remoteInfo = "iOS生学教育App";
+		};
+		9B29A96C1BF1CD0300246132 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B29A93C1BF1CD0300246132 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B29A9431BF1CD0300246132;
+			remoteInfo = "iOS生学教育App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B014C961BFDCE4C00BD930A /* UUBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUBar.h; sourceTree = "<group>"; };
+		9B014C971BFDCE4C00BD930A /* UUBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUBar.m; sourceTree = "<group>"; };
+		9B014C981BFDCE4C00BD930A /* UUBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUBarChart.h; sourceTree = "<group>"; };
+		9B014C991BFDCE4C00BD930A /* UUBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUBarChart.m; sourceTree = "<group>"; };
+		9B014C9A1BFDCE4C00BD930A /* UUChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUChart.h; sourceTree = "<group>"; };
+		9B014C9B1BFDCE4C00BD930A /* UUChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUChart.m; sourceTree = "<group>"; };
+		9B014C9C1BFDCE4C00BD930A /* UUChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUChartLabel.h; sourceTree = "<group>"; };
+		9B014C9D1BFDCE4C00BD930A /* UUChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUChartLabel.m; sourceTree = "<group>"; };
+		9B014C9E1BFDCE4C00BD930A /* UUColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUColor.h; sourceTree = "<group>"; };
+		9B014C9F1BFDCE4C00BD930A /* UUColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUColor.m; sourceTree = "<group>"; };
+		9B014CA01BFDCE4C00BD930A /* UULineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UULineChart.h; sourceTree = "<group>"; };
+		9B014CA11BFDCE4C00BD930A /* UULineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UULineChart.m; sourceTree = "<group>"; };
+		9B04F5061BFC2666003B08FC /* SXSuggestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXSuggestViewController.h; sourceTree = "<group>"; };
+		9B04F5071BFC2666003B08FC /* SXSuggestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXSuggestViewController.m; sourceTree = "<group>"; };
+		9B29A9441BF1CD0300246132 /* iOS生学教育App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS生学教育App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B29A9481BF1CD0300246132 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B29A94A1BF1CD0300246132 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B29A94B1BF1CD0300246132 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B29A9511BF1CD0300246132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B29A9541BF1CD0300246132 /* iOS____App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "iOS____App.xcdatamodel"; sourceTree = "<group>"; };
+		9B29A9561BF1CD0300246132 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B29A9591BF1CD0300246132 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B29A95B1BF1CD0300246132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B29A9601BF1CD0300246132 /* iOS生学教育AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS生学教育AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B29A9641BF1CD0300246132 /* iOS____AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS____AppTests.m"; sourceTree = "<group>"; };
+		9B29A9661BF1CD0300246132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B29A96B1BF1CD0300246132 /* iOS生学教育AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS生学教育AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B29A96F1BF1CD0300246132 /* iOS____AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS____AppUITests.m"; sourceTree = "<group>"; };
+		9B29A9711BF1CD0300246132 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B29A9881BF1FBF900246132 /* SXDownLoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXDownLoadViewController.h; sourceTree = "<group>"; };
+		9B29A9891BF1FBF900246132 /* SXDownLoadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXDownLoadViewController.m; sourceTree = "<group>"; };
+		9B4DFDA01C03F372003D9A98 /* BTSpiderPlotterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTSpiderPlotterView.h; sourceTree = "<group>"; };
+		9B4DFDA11C03F372003D9A98 /* BTSpiderPlotterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTSpiderPlotterView.m; sourceTree = "<group>"; };
+		9B4F2CA71BF319BD00D496CB /* SXLogonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXLogonViewController.h; sourceTree = "<group>"; };
+		9B4F2CA81BF319BD00D496CB /* SXLogonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXLogonViewController.m; sourceTree = "<group>"; };
+		9B4F2CAA1BF319F400D496CB /* SXStuLogonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXStuLogonViewController.h; sourceTree = "<group>"; };
+		9B4F2CAB1BF319F400D496CB /* SXStuLogonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXStuLogonViewController.m; sourceTree = "<group>"; };
+		9B4F2CB21BF34D8500D496CB /* SXHomepageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXHomepageViewController.h; sourceTree = "<group>"; };
+		9B4F2CB31BF34D8500D496CB /* SXHomepageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXHomepageViewController.m; sourceTree = "<group>"; };
+		9B4F64A31C085BAB004920E7 /* SXParentsLogonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXParentsLogonViewController.h; sourceTree = "<group>"; };
+		9B4F64A41C085BAB004920E7 /* SXParentsLogonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXParentsLogonViewController.m; sourceTree = "<group>"; };
+		9B5058F51BF97329005AAE55 /* SXExamsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXExamsTableViewCell.h; sourceTree = "<group>"; };
+		9B5058F61BF97329005AAE55 /* SXExamsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXExamsTableViewCell.m; sourceTree = "<group>"; };
+		9B5058F71BF97329005AAE55 /* SXExamsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SXExamsTableViewCell.xib; sourceTree = "<group>"; };
+		9B5058FA1BF9D244005AAE55 /* SXCompareTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXCompareTableViewCell.h; sourceTree = "<group>"; };
+		9B5058FB1BF9D244005AAE55 /* SXCompareTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXCompareTableViewCell.m; sourceTree = "<group>"; };
+		9B5058FC1BF9D244005AAE55 /* SXCompareTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SXCompareTableViewCell.xib; sourceTree = "<group>"; };
+		9B5DA76C1BF43FCD001E1B8A /* SXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXMainViewController.h; sourceTree = "<group>"; };
+		9B5DA76D1BF43FCD001E1B8A /* SXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXMainViewController.m; sourceTree = "<group>"; };
+		9B5DA7751BF470F9001E1B8A /* SXAnalyzeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXAnalyzeViewController.h; sourceTree = "<group>"; };
+		9B5DA7761BF470FA001E1B8A /* SXAnalyzeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXAnalyzeViewController.m; sourceTree = "<group>"; };
+		9B6FACE31BFAFE3200FC8660 /* ShengXue.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShengXue.pch; sourceTree = "<group>"; };
+		9B6FACE61BFB205A00FC8660 /* CALayer+SXAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+SXAddition.h"; sourceTree = "<group>"; };
+		9B6FACE71BFB205A00FC8660 /* CALayer+SXAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+SXAddition.m"; sourceTree = "<group>"; };
+		9B6FACEA1BFB2D2500FC8660 /* SXChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXChangePasswordViewController.h; sourceTree = "<group>"; };
+		9B6FACEB1BFB2D2500FC8660 /* SXChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXChangePasswordViewController.m; sourceTree = "<group>"; };
+		9B983E3D1BF5CC2D0065DC58 /* SXExamsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXExamsTableViewController.h; sourceTree = "<group>"; };
+		9B983E3E1BF5CC2D0065DC58 /* SXExamsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXExamsTableViewController.m; sourceTree = "<group>"; };
+		9B983E401BF5CEC80065DC58 /* SXCompareTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXCompareTableViewController.h; sourceTree = "<group>"; };
+		9B983E411BF5CEC80065DC58 /* SXCompareTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXCompareTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B29A9411BF1CD0300246132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B29A95D1BF1CD0300246132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B29A9681BF1CD0300246132 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B014C941BFDCE2A00BD930A /* 3rdLib */ = {
+			isa = PBXGroup;
+			children = (
+				9B4DFD9F1C03F372003D9A98 /* BTSpiderPlotterView */,
+				9B014C951BFDCE4C00BD930A /* UUChart */,
+			);
+			name = 3rdLib;
+			sourceTree = "<group>";
+		};
+		9B014C951BFDCE4C00BD930A /* UUChart */ = {
+			isa = PBXGroup;
+			children = (
+				9B014C961BFDCE4C00BD930A /* UUBar.h */,
+				9B014C971BFDCE4C00BD930A /* UUBar.m */,
+				9B014C981BFDCE4C00BD930A /* UUBarChart.h */,
+				9B014C991BFDCE4C00BD930A /* UUBarChart.m */,
+				9B014C9A1BFDCE4C00BD930A /* UUChart.h */,
+				9B014C9B1BFDCE4C00BD930A /* UUChart.m */,
+				9B014C9C1BFDCE4C00BD930A /* UUChartLabel.h */,
+				9B014C9D1BFDCE4C00BD930A /* UUChartLabel.m */,
+				9B014C9E1BFDCE4C00BD930A /* UUColor.h */,
+				9B014C9F1BFDCE4C00BD930A /* UUColor.m */,
+				9B014CA01BFDCE4C00BD930A /* UULineChart.h */,
+				9B014CA11BFDCE4C00BD930A /* UULineChart.m */,
+			);
+			path = UUChart;
+			sourceTree = "<group>";
+		};
+		9B29A93B1BF1CD0300246132 = {
+			isa = PBXGroup;
+			children = (
+				9B29A9461BF1CD0300246132 /* iOS生学教育App */,
+				9B29A9631BF1CD0300246132 /* iOS生学教育AppTests */,
+				9B29A96E1BF1CD0300246132 /* iOS生学教育AppUITests */,
+				9B29A9451BF1CD0300246132 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B29A9451BF1CD0300246132 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B29A9441BF1CD0300246132 /* iOS生学教育App.app */,
+				9B29A9601BF1CD0300246132 /* iOS生学教育AppTests.xctest */,
+				9B29A96B1BF1CD0300246132 /* iOS生学教育AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B29A9461BF1CD0300246132 /* iOS生学教育App */ = {
+			isa = PBXGroup;
+			children = (
+				9B014C941BFDCE2A00BD930A /* 3rdLib */,
+				9B29A9851BF1FB9300246132 /* Model */,
+				9B29A9861BF1FB9F00246132 /* View */,
+				9B29A94A1BF1CD0300246132 /* AppDelegate.h */,
+				9B29A94B1BF1CD0300246132 /* AppDelegate.m */,
+				9B29A9501BF1CD0300246132 /* Main.storyboard */,
+				9B29A9871BF1FBAB00246132 /* Controller */,
+				9B6FACE51BFB1F6800FC8660 /* Utilities */,
+				9B29A9561BF1CD0300246132 /* Assets.xcassets */,
+				9B29A9581BF1CD0300246132 /* LaunchScreen.storyboard */,
+				9B29A95B1BF1CD0300246132 /* Info.plist */,
+				9B29A9531BF1CD0300246132 /* iOS____App.xcdatamodeld */,
+				9B29A9471BF1CD0300246132 /* Supporting Files */,
+			);
+			path = "iOS生学教育App";
+			sourceTree = "<group>";
+		};
+		9B29A9471BF1CD0300246132 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B29A9481BF1CD0300246132 /* main.m */,
+				9B6FACE31BFAFE3200FC8660 /* ShengXue.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9B29A9631BF1CD0300246132 /* iOS生学教育AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B29A9641BF1CD0300246132 /* iOS____AppTests.m */,
+				9B29A9661BF1CD0300246132 /* Info.plist */,
+			);
+			path = "iOS生学教育AppTests";
+			sourceTree = "<group>";
+		};
+		9B29A96E1BF1CD0300246132 /* iOS生学教育AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B29A96F1BF1CD0300246132 /* iOS____AppUITests.m */,
+				9B29A9711BF1CD0300246132 /* Info.plist */,
+			);
+			path = "iOS生学教育AppUITests";
+			sourceTree = "<group>";
+		};
+		9B29A9851BF1FB9300246132 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9B29A9861BF1FB9F00246132 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B983E3C1BF5C6AC0065DC58 /* 其它 */,
+				9B983E3B1BF5C6990065DC58 /* Cell */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9B29A9871BF1FBAB00246132 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9B4F2CB11BF34C7900D496CB /* 应用界面 */,
+				9B4F2CB01BF34C2B00D496CB /* 注册与登录界面 */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9B4DFD9F1C03F372003D9A98 /* BTSpiderPlotterView */ = {
+			isa = PBXGroup;
+			children = (
+				9B4DFDA01C03F372003D9A98 /* BTSpiderPlotterView.h */,
+				9B4DFDA11C03F372003D9A98 /* BTSpiderPlotterView.m */,
+			);
+			name = BTSpiderPlotterView;
+			path = UUChart/BTSpiderPlotterView;
+			sourceTree = "<group>";
+		};
+		9B4F2CB01BF34C2B00D496CB /* 注册与登录界面 */ = {
+			isa = PBXGroup;
+			children = (
+				9B29A9881BF1FBF900246132 /* SXDownLoadViewController.h */,
+				9B29A9891BF1FBF900246132 /* SXDownLoadViewController.m */,
+				9B4F2CA71BF319BD00D496CB /* SXLogonViewController.h */,
+				9B4F2CA81BF319BD00D496CB /* SXLogonViewController.m */,
+				9B4F2CAA1BF319F400D496CB /* SXStuLogonViewController.h */,
+				9B4F2CAB1BF319F400D496CB /* SXStuLogonViewController.m */,
+				9B4F64A31C085BAB004920E7 /* SXParentsLogonViewController.h */,
+				9B4F64A41C085BAB004920E7 /* SXParentsLogonViewController.m */,
+			);
+			name = "注册与登录界面";
+			sourceTree = "<group>";
+		};
+		9B4F2CB11BF34C7900D496CB /* 应用界面 */ = {
+			isa = PBXGroup;
+			children = (
+				9B5DA7701BF46D03001E1B8A /* 小分支界面 */,
+				9B5DA76F1BF46CC3001E1B8A /* 主框架界面 */,
+			);
+			name = "应用界面";
+			sourceTree = "<group>";
+		};
+		9B5DA76F1BF46CC3001E1B8A /* 主框架界面 */ = {
+			isa = PBXGroup;
+			children = (
+				9B4F2CB21BF34D8500D496CB /* SXHomepageViewController.h */,
+				9B4F2CB31BF34D8500D496CB /* SXHomepageViewController.m */,
+				9B983E3D1BF5CC2D0065DC58 /* SXExamsTableViewController.h */,
+				9B983E3E1BF5CC2D0065DC58 /* SXExamsTableViewController.m */,
+				9B5DA76C1BF43FCD001E1B8A /* SXMainViewController.h */,
+				9B5DA76D1BF43FCD001E1B8A /* SXMainViewController.m */,
+			);
+			name = "主框架界面";
+			sourceTree = "<group>";
+		};
+		9B5DA7701BF46D03001E1B8A /* 小分支界面 */ = {
+			isa = PBXGroup;
+			children = (
+				9B6FACE91BFB2C6E00FC8660 /* 个人中心 */,
+				9B5DA7741BF470A7001E1B8A /* 对比 */,
+			);
+			name = "小分支界面";
+			sourceTree = "<group>";
+		};
+		9B5DA7741BF470A7001E1B8A /* 对比 */ = {
+			isa = PBXGroup;
+			children = (
+				9B983E401BF5CEC80065DC58 /* SXCompareTableViewController.h */,
+				9B983E411BF5CEC80065DC58 /* SXCompareTableViewController.m */,
+				9B5DA7751BF470F9001E1B8A /* SXAnalyzeViewController.h */,
+				9B5DA7761BF470FA001E1B8A /* SXAnalyzeViewController.m */,
+			);
+			name = "对比";
+			sourceTree = "<group>";
+		};
+		9B6FACE51BFB1F6800FC8660 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9B6FACE61BFB205A00FC8660 /* CALayer+SXAddition.h */,
+				9B6FACE71BFB205A00FC8660 /* CALayer+SXAddition.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		9B6FACE91BFB2C6E00FC8660 /* 个人中心 */ = {
+			isa = PBXGroup;
+			children = (
+				9B6FACEA1BFB2D2500FC8660 /* SXChangePasswordViewController.h */,
+				9B6FACEB1BFB2D2500FC8660 /* SXChangePasswordViewController.m */,
+				9B04F5061BFC2666003B08FC /* SXSuggestViewController.h */,
+				9B04F5071BFC2666003B08FC /* SXSuggestViewController.m */,
+			);
+			name = "个人中心";
+			sourceTree = "<group>";
+		};
+		9B983E3B1BF5C6990065DC58 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9B5058F51BF97329005AAE55 /* SXExamsTableViewCell.h */,
+				9B5058F61BF97329005AAE55 /* SXExamsTableViewCell.m */,
+				9B5058F71BF97329005AAE55 /* SXExamsTableViewCell.xib */,
+				9B5058FA1BF9D244005AAE55 /* SXCompareTableViewCell.h */,
+				9B5058FB1BF9D244005AAE55 /* SXCompareTableViewCell.m */,
+				9B5058FC1BF9D244005AAE55 /* SXCompareTableViewCell.xib */,
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		9B983E3C1BF5C6AC0065DC58 /* 其它 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "其它";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B29A9431BF1CD0300246132 /* iOS生学教育App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B29A9741BF1CD0300246132 /* Build configuration list for PBXNativeTarget "iOS生学教育App" */;
+			buildPhases = (
+				9B29A9401BF1CD0300246132 /* Sources */,
+				9B29A9411BF1CD0300246132 /* Frameworks */,
+				9B29A9421BF1CD0300246132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS生学教育App";
+			productName = "iOS生学教育App";
+			productReference = 9B29A9441BF1CD0300246132 /* iOS生学教育App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B29A95F1BF1CD0300246132 /* iOS生学教育AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B29A9771BF1CD0300246132 /* Build configuration list for PBXNativeTarget "iOS生学教育AppTests" */;
+			buildPhases = (
+				9B29A95C1BF1CD0300246132 /* Sources */,
+				9B29A95D1BF1CD0300246132 /* Frameworks */,
+				9B29A95E1BF1CD0300246132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B29A9621BF1CD0300246132 /* PBXTargetDependency */,
+			);
+			name = "iOS生学教育AppTests";
+			productName = "iOS生学教育AppTests";
+			productReference = 9B29A9601BF1CD0300246132 /* iOS生学教育AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B29A96A1BF1CD0300246132 /* iOS生学教育AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B29A97A1BF1CD0300246132 /* Build configuration list for PBXNativeTarget "iOS生学教育AppUITests" */;
+			buildPhases = (
+				9B29A9671BF1CD0300246132 /* Sources */,
+				9B29A9681BF1CD0300246132 /* Frameworks */,
+				9B29A9691BF1CD0300246132 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B29A96D1BF1CD0300246132 /* PBXTargetDependency */,
+			);
+			name = "iOS生学教育AppUITests";
+			productName = "iOS生学教育AppUITests";
+			productReference = 9B29A96B1BF1CD0300246132 /* iOS生学教育AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B29A93C1BF1CD0300246132 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SX;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "王磊";
+				TargetAttributes = {
+					9B29A9431BF1CD0300246132 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = A4C482JJ9E;
+					};
+					9B29A95F1BF1CD0300246132 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9B29A9431BF1CD0300246132;
+					};
+					9B29A96A1BF1CD0300246132 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 9B29A9431BF1CD0300246132;
+					};
+				};
+			};
+			buildConfigurationList = 9B29A93F1BF1CD0300246132 /* Build configuration list for PBXProject "iOS生学教育App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B29A93B1BF1CD0300246132;
+			productRefGroup = 9B29A9451BF1CD0300246132 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B29A9431BF1CD0300246132 /* iOS生学教育App */,
+				9B29A95F1BF1CD0300246132 /* iOS生学教育AppTests */,
+				9B29A96A1BF1CD0300246132 /* iOS生学教育AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B29A9421BF1CD0300246132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B29A95A1BF1CD0300246132 /* LaunchScreen.storyboard in Resources */,
+				9B5058F91BF97329005AAE55 /* SXExamsTableViewCell.xib in Resources */,
+				9B29A9571BF1CD0300246132 /* Assets.xcassets in Resources */,
+				9B29A9521BF1CD0300246132 /* Main.storyboard in Resources */,
+				9B5058FE1BF9D244005AAE55 /* SXCompareTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B29A95E1BF1CD0300246132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B29A9691BF1CD0300246132 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B29A9401BF1CD0300246132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B04F5081BFC2666003B08FC /* SXSuggestViewController.m in Sources */,
+				9B014CA51BFDCE4C00BD930A /* UUChartLabel.m in Sources */,
+				9B5DA76E1BF43FCD001E1B8A /* SXMainViewController.m in Sources */,
+				9B4F2CAC1BF319F400D496CB /* SXStuLogonViewController.m in Sources */,
+				9B983E421BF5CEC80065DC58 /* SXCompareTableViewController.m in Sources */,
+				9B014CA21BFDCE4C00BD930A /* UUBar.m in Sources */,
+				9B5DA7771BF470FA001E1B8A /* SXAnalyzeViewController.m in Sources */,
+				9B4F64A51C085BAB004920E7 /* SXParentsLogonViewController.m in Sources */,
+				9B014CA41BFDCE4C00BD930A /* UUChart.m in Sources */,
+				9B6FACE81BFB205A00FC8660 /* CALayer+SXAddition.m in Sources */,
+				9B4F2CA91BF319BD00D496CB /* SXLogonViewController.m in Sources */,
+				9B014CA31BFDCE4C00BD930A /* UUBarChart.m in Sources */,
+				9B014CA61BFDCE4C00BD930A /* UUColor.m in Sources */,
+				9B29A94C1BF1CD0300246132 /* AppDelegate.m in Sources */,
+				9B5058F81BF97329005AAE55 /* SXExamsTableViewCell.m in Sources */,
+				9B4DFDA21C03F372003D9A98 /* BTSpiderPlotterView.m in Sources */,
+				9B29A9491BF1CD0300246132 /* main.m in Sources */,
+				9B5058FD1BF9D244005AAE55 /* SXCompareTableViewCell.m in Sources */,
+				9B983E3F1BF5CC2D0065DC58 /* SXExamsTableViewController.m in Sources */,
+				9B29A9551BF1CD0300246132 /* iOS____App.xcdatamodeld in Sources */,
+				9B014CA71BFDCE4C00BD930A /* UULineChart.m in Sources */,
+				9B6FACEC1BFB2D2500FC8660 /* SXChangePasswordViewController.m in Sources */,
+				9B4F2CB41BF34D8500D496CB /* SXHomepageViewController.m in Sources */,
+				9B29A98A1BF1FBF900246132 /* SXDownLoadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B29A95C1BF1CD0300246132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B29A9651BF1CD0300246132 /* iOS____AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B29A9671BF1CD0300246132 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B29A9701BF1CD0300246132 /* iOS____AppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B29A9621BF1CD0300246132 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B29A9431BF1CD0300246132 /* iOS生学教育App */;
+			targetProxy = 9B29A9611BF1CD0300246132 /* PBXContainerItemProxy */;
+		};
+		9B29A96D1BF1CD0300246132 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B29A9431BF1CD0300246132 /* iOS生学教育App */;
+			targetProxy = 9B29A96C1BF1CD0300246132 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B29A9501BF1CD0300246132 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B29A9511BF1CD0300246132 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B29A9581BF1CD0300246132 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B29A9591BF1CD0300246132 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B29A9721BF1CD0300246132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B29A9731BF1CD0300246132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B29A9751BF1CD0300246132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "iOS生学教育App/ShengXue.pch";
+				INFOPLIST_FILE = "iOS生学教育App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.iOS----App...";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B29A9761BF1CD0300246132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = "iOS生学教育App/ShengXue.pch";
+				INFOPLIST_FILE = "iOS生学教育App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.iOS----App...";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9B29A9781BF1CD0300246132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS生学教育AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.iOS----AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS生学教育App.app/iOS生学教育App";
+			};
+			name = Debug;
+		};
+		9B29A9791BF1CD0300246132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "iOS生学教育AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.iOS----AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS生学教育App.app/iOS生学教育App";
+			};
+			name = Release;
+		};
+		9B29A97B1BF1CD0300246132 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS生学教育AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.iOS----AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS生学教育App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		9B29A97C1BF1CD0300246132 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "iOS生学教育AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.iOS----AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "iOS生学教育App";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B29A93F1BF1CD0300246132 /* Build configuration list for PBXProject "iOS生学教育App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B29A9721BF1CD0300246132 /* Debug */,
+				9B29A9731BF1CD0300246132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B29A9741BF1CD0300246132 /* Build configuration list for PBXNativeTarget "iOS生学教育App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B29A9751BF1CD0300246132 /* Debug */,
+				9B29A9761BF1CD0300246132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B29A9771BF1CD0300246132 /* Build configuration list for PBXNativeTarget "iOS生学教育AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B29A9781BF1CD0300246132 /* Debug */,
+				9B29A9791BF1CD0300246132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B29A97A1BF1CD0300246132 /* Build configuration list for PBXNativeTarget "iOS生学教育AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B29A97B1BF1CD0300246132 /* Debug */,
+				9B29A97C1BF1CD0300246132 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9B29A9531BF1CD0300246132 /* iOS____App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9B29A9541BF1CD0300246132 /* iOS____App.xcdatamodel */,
+			);
+			currentVersion = 9B29A9541BF1CD0300246132 /* iOS____App.xcdatamodel */;
+			path = "iOS____App.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9B29A93C1BF1CD0300246132 /* Project object */;
+}
